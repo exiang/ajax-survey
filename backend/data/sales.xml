@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<survey>
+	<meta>
+		<title><![CDATA[Sales Path]]></title>
+	</meta>
+	<questions>
+		<item id="1" type="radio">
+			<question>Highest value of single product/service sold individually</question>
+			<answers>
+				<item score="1">RM100</item>
+				<item score="2">RM1000</item>
+				<item score="3">RM10,000</item>
+				<item score="4">RM100,000</item>
+				<item score="5">more than RM100,000</item>
+			</answers>
+		</item>
+		<item id="2" type="scale">
+			<question>Have you done prospecting?</question>
+			<answers>
+				<item score="1" goto="4">Don't know what it is</item>
+				<item score="3" goto="3">Aware of the term but not active</item>
+				<item score="5" goto="3">Master of prospecting, have a system</item>
+			</answers>
+		</item>
+		<item id="3" parentId="2" type="radio" isInvisibleByDefault="true">
+			<question>If yes - What's the largest database of prospects?</question>
+			<answers>
+				<item score="1">10</item>
+				<item score="2">100</item>
+				<item score="3">1000</item>
+				<item score="4">10,000</item>
+				<item score="5">100,000</item>
+				<item score="6">more than 100,000</item>
+			</answers>
+		</item>
+		<item id="4" type="scale">
+			<question>How well do you understand content marketing</question>
+			<answers>
+				<item score="1">Don't know what it is</item>
+				<item score="3">Aware of the term but not active</item>
+				<item score="5">Master of content marketing</item>
+			</answers>
+		</item>
+		<item id="5" type="radio">
+			<question>How much have you spent on Google Adwords?</question>
+			<answers>
+				<item score="1">Less than RM500</item>
+				<item score="2"> Less than RM5,000</item>
+				<item score="3">Up to RM 25,000</item>
+				<item score="4">Above RM25,000</item>
+			</answers>
+		</item>
+		<item id="6" type="scale">
+			<question>Have you ran email marketing before? Size of database?</question>
+			<answers>
+				<item score="1" goto="8">Don't know what it is</item>
+				<item score="3" goto="7">Aware of the term but not active</item>
+				<item score="5" goto="7">Master of email marketing</item>
+			</answers>
+		</item>
+		<item id="7" parentId="6" type="radio" isInvisibleByDefault="true">
+			<question>If yes - size of email database?</question>
+			<answers>
+				<item score="1">100</item>
+				<item score="2">1000</item>
+				<item score="3">10,000</item>
+				<item score="4">100,000</item>
+				<item score="5">more than 100,000</item>
+			</answers>
+		</item>
+		<item id="8" type="scale">
+			<question>Have your run your own blog before?</question>
+			<answers>
+				<item score="1" goto="10">Don't know what it is</item>
+				<item score="3" goto="9">Aware of the term but not active</item>
+				<item score="5" goto="9">Master of blogging</item>
+			</answers>
+		</item>
+		<item id="9" parentId="8" type="radio" isInvisibleByDefault="true">
+			<question>If yes - Number of visitors per annum?</question>
+			<answers>
+				<item score="1">100</item>
+				<item score="2">1000</item>
+				<item score="3">10,000</item>
+				<item score="4">100,000</item>
+				<item score="5">1,000,000</item>
+				<item score="6">more than 1,000,000</item>
+			</answers>
+		</item>
+		<item id="10" type="scale">
+			<question>Have you maintained your company's blog before? </question>
+			<answers>
+				<item score="1" goto="12">Don't know what it is</item>
+				<item score="3" goto="11">Aware of the term but not active</item>
+				<item score="5" goto="11">Master of blogging</item>
+			</answers>
+		</item>
+		<item id="11" parentId="10" type="radio" isInvisibleByDefault="true">
+			<question>If yes - Number of converted clients from blog?</question>
+			<answers>
+				<item score="1">100</item>
+				<item score="2">1000</item>
+				<item score="3">10,000</item>
+				<item score="4">100,000</item>
+				<item score="5">more than 100,000</item>
+			</answers>
+		</item>
+		<item id="12" type="scale">
+			<question>Have you built landing pages from scratch?</question>
+			<answers>
+				<item score="1">Don't know what it is</item>
+				<item score="3">Aware of the term but not active</item>
+				<item score="5">Master of landing page</item>
+			</answers>
+		</item>
+		<item id="13" type="scale">
+			<question>Have you written the text for landing pages?</question>
+			<answers>
+				<item score="1">Don't know what it is</item>
+				<item score="3">Aware of the term but not active</item>
+				<item score="5">Master of copy writing</item>
+			</answers>
+		</item>
+		<item id="14" type="scale">
+			<question>Have you written the text for email?</question>
+			<answers>
+				<item score="1">Don't know what it is</item>
+				<item score="3">Aware of the term but not active</item>
+				<item score="5">Master of email writing</item>
+			</answers>
+		</item>
+		<item id="15" type="freetext">
+			<question>Your email address?</question>
+		</item>
+	</questions>
+</survey>
